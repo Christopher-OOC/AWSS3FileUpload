@@ -14,8 +14,8 @@ public class FileStoreServiceImpl {
     @Autowired
     FileStoreService fsService;
 
-    private String accessKey = "AKIAXYKJRRSIQ7Q3RZPK";
-    private String secretKey = "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";
+    private String accessKey = "";
+    private String secretKey = "";
     private String bucket = "chris-spring-upload-testings";
 
 
