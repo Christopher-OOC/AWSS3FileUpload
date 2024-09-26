@@ -19,7 +19,7 @@ public class FileStorage {
     private byte[] filebyte;
 
     @Lob
-    @Column(columnDefinition = "MEDIUMBLOB")
+    @Column(columnDefinition = "LONGBLOB")
     private String filebase64;
 
     public Long getId() {

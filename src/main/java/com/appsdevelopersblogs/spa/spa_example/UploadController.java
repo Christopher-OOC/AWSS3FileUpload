@@ -8,7 +8,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 @RestController
 @RequestMapping("/file")
-public class TestAwsUpload {
+public class UploadController {
 
     @Autowired
     private FileStoreServiceImpl fsServiceImpl;
